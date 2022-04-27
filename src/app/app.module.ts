@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AuthFormModule } from './auth-form/auth-form.module';
 
 import { AppComponent } from './app.component';
+import { CreditCardDirective } from './credit-card.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CreditCardDirective
   ],
   imports: [
     BrowserModule,
